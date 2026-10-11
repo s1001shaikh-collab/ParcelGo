@@ -19,7 +19,7 @@ jobs:
 
       - name: Extract ParcelGo source ZIP
         run: |
-          unzip -q ParcelGo-Android-Source.zip -d source
+          unzip -q ParcelGo-Android-Source-1.zip -d source
           test -f source/courier-app/app/build.gradle
 
       - name: Set up Java 17
